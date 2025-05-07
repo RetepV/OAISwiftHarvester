@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055672212DAE73ED007126DC /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 055672202DAE73ED007126DC /* Algorithms */; };
+		055672282DAEB370007126DC /* LaTeXSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 055672272DAEB370007126DC /* LaTeXSwiftUI */; };
+		05C1B8D42DAD12C300036514 /* XMLCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 05C1B8D32DAD12C300036514 /* XMLCoder */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C1B8AD2DAD07D300036514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1B8922DAD07D100036514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C1B8992DAD07D100036514;
+			remoteInfo = OAISwiftHarvesterApp;
+		};
+		05C1B8B72DAD07D300036514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1B8922DAD07D100036514 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C1B8992DAD07D100036514;
+			remoteInfo = OAISwiftHarvesterApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C1B89A2DAD07D100036514 /* OAISwiftHarvester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAISwiftHarvester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C1B8AC2DAD07D300036514 /* OAISwiftHarvesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAISwiftHarvesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C1B8B62DAD07D300036514 /* OAISwiftHarvesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAISwiftHarvesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		05C1B89C2DAD07D100036514 /* OAISwiftHarvester */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OAISwiftHarvester;
+			sourceTree = "<group>";
+		};
+		05C1B8AF2DAD07D300036514 /* OAISwiftHarvesterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OAISwiftHarvesterTests;
+			sourceTree = "<group>";
+		};
+		05C1B8B92DAD07D300036514 /* OAISwiftHarvesterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OAISwiftHarvesterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C1B8972DAD07D100036514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055672212DAE73ED007126DC /* Algorithms in Frameworks */,
+				05C1B8D42DAD12C300036514 /* XMLCoder in Frameworks */,
+				055672282DAEB370007126DC /* LaTeXSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8A92DAD07D300036514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8B32DAD07D300036514 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0556721F2DAE73ED007126DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05C1B8912DAD07D100036514 = {
+			isa = PBXGroup;
+			children = (
+				05C1B89C2DAD07D100036514 /* OAISwiftHarvester */,
+				05C1B8AF2DAD07D300036514 /* OAISwiftHarvesterTests */,
+				05C1B8B92DAD07D300036514 /* OAISwiftHarvesterUITests */,
+				0556721F2DAE73ED007126DC /* Frameworks */,
+				05C1B89B2DAD07D100036514 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C1B89B2DAD07D100036514 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C1B89A2DAD07D100036514 /* OAISwiftHarvester.app */,
+				05C1B8AC2DAD07D300036514 /* OAISwiftHarvesterTests.xctest */,
+				05C1B8B62DAD07D300036514 /* OAISwiftHarvesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C1B8992DAD07D100036514 /* OAISwiftHarvester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C1B8C02DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvester" */;
+			buildPhases = (
+				05C1B8962DAD07D100036514 /* Sources */,
+				05C1B8972DAD07D100036514 /* Frameworks */,
+				05C1B8982DAD07D100036514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				05C1B89C2DAD07D100036514 /* OAISwiftHarvester */,
+			);
+			name = OAISwiftHarvester;
+			packageProductDependencies = (
+				05C1B8D32DAD12C300036514 /* XMLCoder */,
+				055672202DAE73ED007126DC /* Algorithms */,
+				055672272DAEB370007126DC /* LaTeXSwiftUI */,
+			);
+			productName = OAISwiftHarvesterApp;
+			productReference = 05C1B89A2DAD07D100036514 /* OAISwiftHarvester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C1B8AB2DAD07D300036514 /* OAISwiftHarvesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C1B8C32DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvesterTests" */;
+			buildPhases = (
+				05C1B8A82DAD07D300036514 /* Sources */,
+				05C1B8A92DAD07D300036514 /* Frameworks */,
+				05C1B8AA2DAD07D300036514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C1B8AE2DAD07D300036514 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05C1B8AF2DAD07D300036514 /* OAISwiftHarvesterTests */,
+			);
+			name = OAISwiftHarvesterTests;
+			packageProductDependencies = (
+			);
+			productName = OAISwiftHarvesterAppTests;
+			productReference = 05C1B8AC2DAD07D300036514 /* OAISwiftHarvesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05C1B8B52DAD07D300036514 /* OAISwiftHarvesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C1B8C62DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvesterUITests" */;
+			buildPhases = (
+				05C1B8B22DAD07D300036514 /* Sources */,
+				05C1B8B32DAD07D300036514 /* Frameworks */,
+				05C1B8B42DAD07D300036514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C1B8B82DAD07D300036514 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				05C1B8B92DAD07D300036514 /* OAISwiftHarvesterUITests */,
+			);
+			name = OAISwiftHarvesterUITests;
+			packageProductDependencies = (
+			);
+			productName = OAISwiftHarvesterAppUITests;
+			productReference = 05C1B8B62DAD07D300036514 /* OAISwiftHarvesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C1B8922DAD07D100036514 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					05C1B8992DAD07D100036514 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					05C1B8AB2DAD07D300036514 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05C1B8992DAD07D100036514;
+					};
+					05C1B8B52DAD07D300036514 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 05C1B8992DAD07D100036514;
+					};
+				};
+			};
+			buildConfigurationList = 05C1B8952DAD07D100036514 /* Build configuration list for PBXProject "OAISwiftHarvester" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C1B8912DAD07D100036514;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05C1B8D22DAD12C300036514 /* XCRemoteSwiftPackageReference "XMLCoder" */,
+				0556721D2DAE7025007126DC /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				055672262DAEB2A0007126DC /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 05C1B89B2DAD07D100036514 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C1B8992DAD07D100036514 /* OAISwiftHarvester */,
+				05C1B8AB2DAD07D300036514 /* OAISwiftHarvesterTests */,
+				05C1B8B52DAD07D300036514 /* OAISwiftHarvesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C1B8982DAD07D100036514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8AA2DAD07D300036514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8B42DAD07D300036514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C1B8962DAD07D100036514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8A82DAD07D300036514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C1B8B22DAD07D300036514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C1B8AE2DAD07D300036514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C1B8992DAD07D100036514 /* OAISwiftHarvester */;
+			targetProxy = 05C1B8AD2DAD07D300036514 /* PBXContainerItemProxy */;
+		};
+		05C1B8B82DAD07D300036514 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C1B8992DAD07D100036514 /* OAISwiftHarvester */;
+			targetProxy = 05C1B8B72DAD07D300036514 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C1B8BE2DAD07D300036514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05C1B8BF2DAD07D300036514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C1B8C12DAD07D300036514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OAISwiftHarvester/Preview Content\"";
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05C1B8C22DAD07D300036514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OAISwiftHarvester/Preview Content\"";
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05C1B8C42DAD07D300036514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAISwiftHarvester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OAISwiftHarvester";
+			};
+			name = Debug;
+		};
+		05C1B8C52DAD07D300036514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAISwiftHarvester.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OAISwiftHarvester";
+			};
+			name = Release;
+		};
+		05C1B8C72DAD07D300036514 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OAISwiftHarvesterApp;
+			};
+			name = Debug;
+		};
+		05C1B8C82DAD07D300036514 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62XNJ7XMXZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.retepv.OAISwiftHarvesterAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OAISwiftHarvesterApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C1B8952DAD07D100036514 /* Build configuration list for PBXProject "OAISwiftHarvester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1B8BE2DAD07D300036514 /* Debug */,
+				05C1B8BF2DAD07D300036514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C1B8C02DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1B8C12DAD07D300036514 /* Debug */,
+				05C1B8C22DAD07D300036514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C1B8C32DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1B8C42DAD07D300036514 /* Debug */,
+				05C1B8C52DAD07D300036514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C1B8C62DAD07D300036514 /* Build configuration list for PBXNativeTarget "OAISwiftHarvesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C1B8C72DAD07D300036514 /* Debug */,
+				05C1B8C82DAD07D300036514 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0556721D2DAE7025007126DC /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		055672262DAEB2A0007126DC /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/colinc86/LaTeXSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		05C1B8D22DAD12C300036514 /* XCRemoteSwiftPackageReference "XMLCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CoreOffice/XMLCoder";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		055672202DAE73ED007126DC /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0556721D2DAE7025007126DC /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		055672272DAEB370007126DC /* LaTeXSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 055672262DAEB2A0007126DC /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */;
+			productName = LaTeXSwiftUI;
+		};
+		05C1B8D32DAD12C300036514 /* XMLCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05C1B8D22DAD12C300036514 /* XCRemoteSwiftPackageReference "XMLCoder" */;
+			productName = XMLCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 05C1B8922DAD07D100036514 /* Project object */;
+}
